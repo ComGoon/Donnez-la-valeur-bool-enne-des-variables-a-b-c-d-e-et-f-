@@ -1,11 +1,15 @@
+//Author: Oussoumane Mahaman Madani (GoMyCode)
+
+
 function bool($val)
 {
-if($val) echo "TRUE 
-";
-else echo "FALSE 
-";
+if($val){
+  echo "TRUE";
 }
-//********************
+else{
+  echo "FALSE";
+}
+
 $a="0";
 echo "\$a vaut : ",bool($a);
 echo "<hr>";
