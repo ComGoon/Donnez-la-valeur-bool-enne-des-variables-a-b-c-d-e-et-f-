@@ -1,0 +1,35 @@
+function bool($val)
+{
+if($val) echo "TRUE 
+";
+else echo "FALSE 
+";
+}
+//********************
+$a="0";
+echo "\$a vaut : ",bool($a);
+echo "<hr>";
+echo "<br>";
+
+$b="TRUE";
+echo "\$b vaut : ",bool($b);
+echo "<hr>";
+echo "<br>";
+
+$c=FALSE;
+echo "\$c vaut : ",bool($c);
+echo "<hr>";
+echo "<br>";
+
+$d=($a OR $b);
+echo "\$d vaut : ",bool($d);
+echo "<hr>";
+echo "<br>";
+
+$e=($a AND $c);
+echo "\$e vaut : ",bool($e);
+echo "<hr>";
+echo "<br>";
+
+$f=($a XOR $b);
+echo "\$f vaut : ",bool($f);
